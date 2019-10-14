@@ -2,5 +2,5 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   height: 100%;
-  background: #2d2d2d;
+  background: #eff3f6;
 `;
