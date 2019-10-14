@@ -1,16 +1,19 @@
 import React from 'react';
 
-import logo from '~/assets/images/logo.svg';
+import logo from '~/assets/images/logo_black.jpg';
 
 export default function Signin() {
   return (
     <>
-      <img src={logo} alt="Samara e Leonardo" />
       <form action="">
-        <input type="email" placeholder="Seu e-mail" />
-        <input type="password" placeholder="Sua senha" />
-        <button type="submit"> Fazer login </button>{' '}
-      </form>{' '}
+        <img src={logo} alt="Samara&Leonardo" className="branding" />
+        <h1 className="heading">Olá, bom te ver aqui!</h1>
+        <input type="email" placeholder="Seu e-mail" name="email" />
+        <input type="password" name="password" placeholder="Sua senha" />
+        <button type="submit" className="globalShadow blue">
+          Fazer login
+        </button>
+      </form>
     </>
   );
 }

@@ -9,7 +9,7 @@
     "editor.lineHeight": 24,
     "editor.formatOnSave": false,
     "editor.rulers": [
-        80,
+        90,
         120
     ],
     "eslint.autoFixOnSave": true,
