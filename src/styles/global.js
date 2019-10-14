@@ -56,6 +56,12 @@ export default createGlobalStyle`
     box-shadow: 0px 0px 34px -8px rgba(53,63,223,.71);
   }
 
+  .globalShadow.orange{
+    -webkit-box-shadow: 0px 0px 34px -8px rgba(255, 111, 32,.71);
+    -moz-box-shadow: 0px 0px 34px -8px rgba(255, 111, 32,.71);
+    box-shadow: 0px 0px 34px -8px rgba(255, 111, 32,.71);
+  }
+
   .branding{
     width:60px;
     height:60px;
