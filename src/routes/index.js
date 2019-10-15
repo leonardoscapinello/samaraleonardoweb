@@ -8,9 +8,9 @@ import Profile from '../pages/Profile';
 export default function Routes() {
   return (
     <Switch>
-      <Route path="/" exact component={Signin} />{' '}
-      <Route path="/dashboard" exact component={Dashboard} isPrivate />{' '}
-      <Route path="/profile" exact component={Profile} isPrivate />{' '}
+      <Route path="/" exact component={Signin} />
+      <Route path="/dashboard" exact component={Dashboard} isPrivate />
+      <Route path="/profile" exact component={Profile} isPrivate />
     </Switch>
   );
 }

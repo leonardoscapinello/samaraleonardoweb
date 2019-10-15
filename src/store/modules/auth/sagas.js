@@ -13,10 +13,12 @@ export function* signIn({ payload }) {
 
   const { token, user } = response.data;
 
+  /*
   if (!user.provider) {
     console.tron.error('Usuário não é um prestador');
     return;
   }
+  */
 
   yield put(signInSuccess(token, user));
   history.push(`/dashboard`);
