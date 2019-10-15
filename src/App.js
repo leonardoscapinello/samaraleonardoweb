@@ -15,7 +15,7 @@ function App() {
       <Router history={history}>
         <Routes />
         <GlobalStyle />
-      </Router>
+      </Router>{' '}
     </Provider>
   );
 }
