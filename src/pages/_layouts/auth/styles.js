@@ -61,5 +61,11 @@ export const Content = styled.div`
       box-shadow: 0px 0px 34px -8px rgba(255, 32, 32, 0.71);
       transition: all 0.3s;
     }
+
+    .buttonLoader{
+      margin-top:30px;
+      height:48px
+    }
+
   }
 `;
