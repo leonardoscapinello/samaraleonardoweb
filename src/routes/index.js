@@ -11,6 +11,8 @@ export default function Routes() {
       <Route path="/" exact component={Signin} />
       <Route path="/dashboard" exact component={Dashboard} isPrivate />
       <Route path="/profile" exact component={Profile} isPrivate />
+      <Route path="/wallets" exact component={Profile} isPrivate />
+      <Route path="/transactions" exact component={Dashboard} isPrivate />
     </Switch>
   );
 }

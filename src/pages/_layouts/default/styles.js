@@ -13,3 +13,8 @@ export const AppContent = styled.div`
   flex-basis: 0;
   flex-grow: 999;
 `;
+
+export const Header = styled.div`
+  flex-basis: 0;
+  flex-grow: 999;
+`;
