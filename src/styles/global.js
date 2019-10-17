@@ -2,10 +2,11 @@ import { createGlobalStyle } from 'styled-components';
 
 import 'react-toastify/dist/ReactToastify.css';
 
-export default createGlobalStyle`
+export default createGlobalStyle `
 
   @import url('https://fonts.googleapis.com/css?family=Nunito:400,500,700&display=swap');
   @import url('https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap');
+  @import url('https://cdn.lineicons.com/1.0.1/LineIcons.min.css');
 
   *{
     padding:0;
